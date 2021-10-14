@@ -1,0 +1,19 @@
+#indent{
+  text-indent: 20px;
+}
+#codesection{
+  background-color: lightgray;
+  border-radius: 25px;
+}
+#underline{
+  text-decoration: underline;
+}
+
+body {
+  background-color: #C1E1C1;
+}
+
+#section {
+  border: solid 5px #C1E1C1;
+  background-color: white;
+}
