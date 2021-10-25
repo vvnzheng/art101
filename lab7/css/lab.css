@@ -1,0 +1,32 @@
+body {
+}
+.image{
+  background-image: url("../img/HW_SH021_OliveGrove_Midnight_Swatch_web_1800x1800.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 50px;
+}
+p{
+  margin-left: 20px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+script{
+  margin-left: 20px;
+}
+#codesection{
+  background-color: #999a60;
+}
+#section {
+  font-family: monospace;
+  border: solid 10px #3d4e5e;
+  background: white;
+}
