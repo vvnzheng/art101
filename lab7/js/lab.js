@@ -5,15 +5,19 @@
 */
 
 //Function and Array Declaration
-var userName = prompt("Let me sort your name!", "Vivian")
-function fun() {
-  //make sure that input is not null
-  if(userName != null){
-    nameSort = new Array()
+var userName = prompt("Let me sort your name!", "Vivian").toLowerCase()
+var nameSort
+//if statement that omits whitespaces although unnecessary
+if(userName.indexOf(' ')){
+  userName = userName.replace(/\s/g, '')
+  nameSort = userName.split("")
+}
+//splits the function
+nameSort = userName.split("")
+//Function description
+function fun(name) {
     //Declare variable i
     var i
-    //Split string into array
-    nameSort = userName.split("")
     //Sort array
     nameSort = nameSort.sort()
     //empty out userName
@@ -22,8 +26,8 @@ function fun() {
     for(i = 0; i < nameSort.length; i++){
       userName += nameSort[i];
     }
-  }
   //return sorted name
   return userName
 }
-document.writeln("Here you are! Your sorted name: ", fun(), "!");
+
+document.writeln("Here you are! Your sorted name: ", fun(nameSort), "!");
