@@ -6,6 +6,7 @@
 
 //Array declaration
 tempArray = [0, 1, 2, 3, 4];
+
 //Function that multiplies given parameter by three
 function multiplyByThree(x){
     var result = x * 3;

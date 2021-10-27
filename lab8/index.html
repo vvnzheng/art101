@@ -23,6 +23,18 @@
 	<div id='section'>
 		<h2>Results</h2>
 			<p>The output is in the console, be sure to take a look!</p>
+      <p>We also have the output here for your convenience</p>
+        <div id="codesection">
+        <div id="output">
+        </div>
+        </div>
+            <script>
+              var outputEl = document.getElementById("output");
+              outputEl.innerHTML = "What's 5 * 3?<br />Ans: " + multiplyByThree(5) +
+              "<br /><br />If given the following array, " + tempArray +
+              " what is the result if multiplied by three?<br />Ans: " + tempArray.map(multiplyByThree) +
+              "<br /><br />What is the result of the same array divided by two?<br />Ans: " + tempArray.map(function(x){return x/2});
+            </script>
 	</div>
 </div>
 </body>
