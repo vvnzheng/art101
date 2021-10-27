@@ -25,3 +25,13 @@ console.log("Ans: ", tempArray.map(multiplyByThree));
 console.log("What is the result of the same array divided by two?");
 //Divides tempArray by 2
 console.log("Ans: ", tempArray.map(function(x){return x/2}));
+
+//Callback Function
+function squareAndMultiplyByThree(num1, callBack){
+  let square = num1*num1;
+  return callBack(square);
+}
+
+//test callback function
+console.log("Callback function that squares a given number, in this case 2, and then multiplies it by three: ",
+squareAndMultiplyByThree(2, multiplyByThree));
