@@ -1,0 +1,41 @@
+.image{
+  background-image: url("../img/pompompurin-wallpaper-hdwallpaper20.com.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 50px;
+}
+p{
+  margin-left: 20px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+script{
+  margin-left: 20px;
+}
+#section {
+  font-family: monospace;
+  border: solid 10px #6e512b;
+  background: #fff9af;
+}
+#codesection{
+  font-family: monospace;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f9d2d2;
+}
+#bold{
+  font-weight: bold;
+}
+#output {
+  font-style: italic;
+  font-family: monospace;
+  list-style-type: disc;
+}
