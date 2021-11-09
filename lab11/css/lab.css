@@ -1,0 +1,47 @@
+.image{
+  background-image: url("../img/63-632794_all-kirby-copy-abilities-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 20px;
+}
+p{
+  margin-left: 20px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+script{
+  margin-left: 20px;
+}
+#section {
+  font-family: monospace;
+  border: solid 10px #cc0055;
+  background: white;
+}
+#bold{
+  font-weight: bold;
+}
+#output{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+  font-family: monospace;
+  list-style-type: disc;
+}
+#button{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.special{
+  color: #9248d2;
+  font-size: 20px;
+  font-weight: bold;
+}
