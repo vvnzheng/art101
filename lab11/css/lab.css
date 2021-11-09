@@ -35,10 +35,45 @@ script{
   font-family: monospace;
   list-style-type: disc;
 }
-#button{
+#challengeButton{
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  background-color: #fde676;
+}
+#problemButton{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fde676;
+}
+#resultButton{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fde676;
+}
+#button1{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#button2{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.color1{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #f698aa;
+}
+.color2{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #59b998;
 }
 .special{
   color: #9248d2;
