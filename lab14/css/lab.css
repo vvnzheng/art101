@@ -1,0 +1,42 @@
+.image{
+  background-image: url("../img/kanna2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 1000px;
+}
+p{
+  margin-left: 20px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+script{
+  margin-left: 20px;
+}
+#section {
+  font-family: monospace;
+  border: solid 10px #9ea2ef;
+  background: white;
+}
+#bold{
+  font-weight: bold;
+}
+#output{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+  font-family: monospace;
+  list-style-type: disc;
+  background: #eab6bc;
+  margin-bottom: 20px;
+}
