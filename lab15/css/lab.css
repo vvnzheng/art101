@@ -1,0 +1,39 @@
+.image{
+  background-image: url("../img/gudetama.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 250px;
+}
+p{
+  margin-left: 20px;
+}
+h1{
+  font-size: 35px;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+script{
+  margin-left: 20px;
+}
+#section {
+  font-family: monospace;
+  border: solid 10px #ed8730;
+  background: white;
+}
+#bold{
+  font-weight: bold;
+}
+#output{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+  font-family: monospace;
+  list-style-type: disc;
+  background: #cfd0d4;
+  margin-bottom: 20px;
+}
