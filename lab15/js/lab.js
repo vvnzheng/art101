@@ -3,7 +3,7 @@
  * Created: November 29 2021
  * License: Public Domain
 */
-var my_url = "http:/numbersapi.com/7/math"
+var my_url = "https:/numbersapi.com/7/math"
 $("#activate").click(function(){
 $.ajax({
   //endpoint
