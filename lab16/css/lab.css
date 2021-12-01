@@ -38,6 +38,12 @@ script{
 #output{
   margin: 20px 20px;
 }
+#prev{
+  font-family: monospace
+}
+#next{
+  font-family: monospace
+}
 img{
   max-width: 600px;
 }
